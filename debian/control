@@ -2,7 +2,11 @@ Source: ringbuffer-sc4
 Section: science
 Priority: extra
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: cmake, debhelper (>=9)
+Build-Depends:
+ cmake,
+ debhelper (>=9),
+ nvidia-cuda-toolkit,
+ psrdada
 Standards-Version: 3.9.8
 Homepage: https://github.com/AA-ALERT/ringbuffer-sc4
 
