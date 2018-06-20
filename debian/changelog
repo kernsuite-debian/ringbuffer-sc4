@@ -1,0 +1,5 @@
+ringbuffer-sc4 (0.0~git20180614.7c6647a-1kern1) bionic; urgency=low
+
+  * Initial release.
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 20 Jun 2018 18:02:52 +0200

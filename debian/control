@@ -1,0 +1,19 @@
+Source: ringbuffer-sc4
+Section: science
+Priority: extra
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: cmake, debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/AA-ALERT/ringbuffer-sc4
+
+Package: ringbuffer-sc4
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: copy data from the network into a ringbuffer and do checking
+ This code is part of the realtime pipeline for the AA-ALERT project. Its
+ purpose is to copy data from the network (UDP packets) into a ringbuffer
+ (provided by the PSRdada package), and do some checking. See the technical
+ documentation in the doc directory.
+ Packages are read and processed in batches; additional performance tuning on
+ the OS level was needed to handle the approx. 2.5GB per second requiered.
