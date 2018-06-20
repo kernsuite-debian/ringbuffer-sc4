@@ -1,0 +1,3 @@
+#define VERSION_MAJOR @ringbuffer_VERSION_MAJOR@
+#define VERSION_MINOR @ringbuffer_VERSION_MINOR@
+#define VERSION "@ringbuffer_VERSION_MAJOR@.@ringbuffer_VERSION_MINOR@"
