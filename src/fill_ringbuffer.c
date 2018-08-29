@@ -59,7 +59,7 @@ char *science_modes[] = {"I+TAB", "IQUV+TAB", "I+IAB", "IQUV+IAB"};
 
 // Due to issues with the FPGAs upstream from us, the packet headers are wrong.
 // Work around it for now by using this table with correct frequencies. (search for FREQISSUE below)
-extern const int remap_frequency_sc4[1536];
+extern const unsigned short remap_frequency_sc4[1536];
 
 // global state needed for SIGTERM shutdown
 dada_hdu_t *signal_hdu = NULL;
