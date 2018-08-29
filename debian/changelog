@@ -1,3 +1,10 @@
+ringbuffer-sc4 (0.0~git20180724.a7e6fcf-1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * New upstream version 0.0~git20180724.a7e6fcf
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 29 Aug 2018 20:39:04 +0200
+
 ringbuffer-sc4 (0.0~git20180614.603814d-1kern1) bionic; urgency=medium
 
   * New upstream version 0.0~git20180614.603814d
